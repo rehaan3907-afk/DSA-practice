@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-int rotate_vec(vector <int> &nums, int k){
+void rotate_vec(vector <int> &nums, int k){
     rotate(nums.begin(),nums.end()-k,nums.end());
     for (int a:nums){
         cout<<a<<" ";
