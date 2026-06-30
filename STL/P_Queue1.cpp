@@ -16,7 +16,7 @@ int main(){
         v.push_back(a);
     }
     cout<<"Enter value of k :";
-    int k;
+    size_t k;
     cin>>k;
     for(int a:v){
         pq.push(a);
